@@ -4,17 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutorial</title>
+    <title>JavaScript Basics</title>
+    <style>
+        .btn {
+            font-size: 2rem;
+            background: lightblue;
+            text-transform: uppercase;
+        }
+
+        .red {
+            background: red;
+            color: white;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+
+        .blue {
+            background: blue;
+            color: white;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+
+        /* a {
+            display: inline-block;
+            margin-top: 100vh;
+        } */
+    </style>
 </head>
 <body>
-    <h1>Hello World 1</h1>
-    <div class="special" id="first"></div>
-    <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto fugiat cumque iste eligendi 
-        rem maiores molestias vitae aperiam doloremque. 
-        Veniam nostrum earum tenetur voluptates. Suscipit impedit repellat consequuntur minima perferendis?
-    </p>
+    <div id="result">
+        <h1 id="heading">Hello Page</h1>
+        <div class="second">
+            <h2 id="secondHeading">second heading</h2>
+        </div>
+    </div>
 
-    <h1>Test Commit</h1>
+    <button class="btn" id="btn">click me</button>
+
+    <ul id="result">
+        <li class="fruit" id="first">apple</li>
+        <li class="special">banana</li>
+        <li class="fruit">orange</li>
+        <li class="special last" id="last">grapes</li>
+    </ul>
+
+    <form class="form">
+        <label for="amount">Enter Number</label>
+        <input type="number" id="amount">
+        <br />
+        <label for="amount">Enter Tempature</label>
+        <input type="number" id="temp">
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2 class="headingTitle">event in javascript</h2>
+    <p>I can trigger an event</p>
+    <button class="btn">click me NOW</button>
+
+    <hr>
+
+    <button class="headingBTN">click heading</button>
+    <h3 class="h3-heading">some heading</h3>
+    <a href="#" id="link">random link</a>
+    
+
+    <div class="container">
+        <ul class="listItems">
+            <li class="it"><a href="#" class="li">link 1</a></li>
+            <li class="it"><a href="#" class="li">link 2</a> </li>
+            <li class="it"><a href="#" class="li">link 3</a> </li>
+            <li class="it"><a href="#" class="li">link 4</a> </li>
+        </ul>
+        <!-- <h1 class="bottomHeading">im sitting inside container</h1> -->
+    </div>
+    <button class="btnOutside">click me</button>
+
+    <!-- <script src="/app.js"></script> -->
+    <script src="/challenges/dom.js"></script>
+     <!-- <script src="/challenges/arrays.js"></script> -->
+    <!-- <script src="/challenges/vars.js"></script> -->
 </body>
 </html>
